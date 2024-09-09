@@ -35,6 +35,6 @@
 -- confirmed by reviewing the snapshot on Stackage. For example, at:
 -- https://www.stackage.org/lts-22.28/cabal.config.
 --
-with-compiler: ghc-9.6.6
+with-compiler: ghc-9.10.1
 import: cabal.config
 packages: .
