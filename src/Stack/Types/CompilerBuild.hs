@@ -8,7 +8,7 @@ module Stack.Types.CompilerBuild
   ) where
 
 import           Data.Aeson.Types ( FromJSON, parseJSON, withText )
-import           Data.Text as T
+import           Data.Text as T hiding (show)
 import           Stack.Prelude
 
 -- | Build of the compiler distribution (e.g. standard, gmp4, tinfo6)
